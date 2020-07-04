@@ -1,0 +1,18 @@
+/*
+Theme Name: SkCustom2020
+Template: twentytwenty
+*/
+
+html {
+    font-size: 54% !important;
+    scroll-behavior: smooth;
+}
+
+.entry-content > *:not(.alignwide):not(.alignfull):not(.alignleft):not(.alignright):not(.is-style-wide) {
+    max-width: 82rem;
+    width: calc(100% - 4rem);
+}
+
+.entry-content p, .entry-content li {
+    line-height: 1.8;
+}
